@@ -1,0 +1,39 @@
+POST http://localhost:8080/api/likes/setLike
+Content-Type: application/json
+
+{
+  "username": "oleg",
+  "answerId": 10
+}
+
+### REST API TESTING
+
+GET http://localhost:8080/api/questions/question/21
+
+###
+
+POST http://localhost:8080/api/questions/question
+Content-Type: application/json
+
+{
+  "title": "What is love",
+  "description": "",
+  "authorName": "oleg",
+  "category": "Other"
+}
+
+###
+
+PATCH http://localhost:8080/api/questions/question
+Content-Type: application/json
+
+{
+  "id": 21,
+  "description": "I cant understand"
+}
+
+###
+
+DELETE http://localhost:8080/api/questions/question/21
+
+###
