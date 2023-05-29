@@ -1,1 +1,1 @@
-web: java -Dserver.port=8080 $JAVA_OPTS -jar target/semester-work-java4-0.0.1-SNAPSHOT.jar $JAR_OPTS
+web: java -Dserver.port=$PORT $JAVA_OPTS -jar target/semester-work-java4-0.0.1-SNAPSHOT.jar $JAR_OPTS
